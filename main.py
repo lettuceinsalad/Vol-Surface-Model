@@ -41,8 +41,10 @@ def solve_for_iv(S, K, T, r, q, market_price, epsilon=0.001, max_iter=20, is_cal
     return sigma
         
 ticker_name = input("Enter ticker name: ")
-r = float(input("Enter Interest Rate: "))
-q = float(input("Enter Dividend Yield: "))
+#r = float(input("Enter Interest Rate: "))
+#q = float(input("Enter Dividend Yield: "))
+r = 0.045
+q = 0
 ticker = yf.Ticker(ticker_name)
 
     
